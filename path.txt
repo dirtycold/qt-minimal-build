@@ -1,0 +1,1 @@
+C:\Qt\Tools\mingw530_32\bin;C:\Qt\5.7\Src\gnuwin32\bin;C:\Perl\site\bin;C:\Perl\bin;C:\Python\27\;C:\Python\27\Scripts;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem
