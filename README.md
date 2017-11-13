@@ -1,23 +1,31 @@
 # qt-minimal-build
 
+Update: 2017-11-13
+
 Several Qt build configurations
 
 # Configurations
 
-|Name                   |Purpose|
-|---                    |---|
-|qt_icu                 |ICU support for QtWebkit|
-|qt_minimal             |Qt minimal build from SDK source|
-|qt_minimal-src         |Qt minimal build from standalone source|
-|qt_minimal-src-static  |Qt minimal build from standalone source with static build|
+|Name                                     |Purpose|
+|---                                      |---|
+|qt_static-msvc                           |Qt static build script for MSVC|
+|qt-mingw                                 |Qt build script for MinGW|
+|qt_minimal-mingw                         |Qt minimal build script for MinGW|
+|qt_minimal-mingw-with-serial-and-sensor  |Qt minimal build script for MinGW with Serial port/Serial bus/Sensor support|
 
 # Minimal Build
 
-Minimal build components
+## Features:
 
 * QtCore
 * QtGui
 * QtWidgets
-* QtNetwork
+* QtNetwork (with OpenSSL linked in)
 * QtSql (with only sqlite support)
+
+## Known Issues
+
+* *static* build is MSVC only
+* *minimal* build doesn't contain QtConcurrent and QtXml feature from QtCore
+* There is no obvious way to skip QtPrintSupport feature
 
