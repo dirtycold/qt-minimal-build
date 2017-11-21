@@ -9,7 +9,7 @@ Several Qt build configurations
 |Name                                     |Purpose|
 |---                                      |---|
 |qt_static-msvc                           |Qt static build script for MSVC|
-|qt-mingw                                 |Qt build script for MinGW|
+|qt_static-mingw                          |Qt static build script for MinGW|
 |qt_minimal-mingw                         |Qt minimal build script for MinGW|
 |qt_minimal-mingw-with-serial-and-sensor  |Qt minimal build script for MinGW with Serial port/Serial bus/Sensor support|
 
@@ -17,7 +17,7 @@ Several Qt build configurations
 
 ## Features:
 
-* QtCore
+* QtCore (without QtConcurrent/QtTest/QtXml feature)
 * QtGui
 * QtWidgets
 * QtNetwork (with OpenSSL linked in)
@@ -25,7 +25,5 @@ Several Qt build configurations
 
 ## Known Issues
 
-* *static* build is MSVC only
-* *minimal* build doesn't contain QtConcurrent and QtXml feature from QtCore
 * There is no obvious way to skip QtPrintSupport feature
 
