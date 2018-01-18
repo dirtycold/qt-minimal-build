@@ -1,6 +1,6 @@
 # qt-minimal-build
 
-Update: 2017-11-13
+Update: 2018-01-18
 
 Several Qt build configurations
 
@@ -9,7 +9,8 @@ Several Qt build configurations
 |Name                                     |Purpose|
 |---                                      |---|
 |qt_static-msvc                           |Qt static build script for MSVC|
-|qt_static-mingw                          |Qt static build script for MinGW|
+|qt_static-mingw64                        |Qt static build script for MinGW(64bit)|
+|qt_static-mingw32                        |Qt static build script for MinGW(32bit)|
 |qt_minimal-mingw                         |Qt minimal build script for MinGW|
 |qt_minimal-mingw-with-serial-and-sensor  |Qt minimal build script for MinGW with Serial port/Serial bus/Sensor support|
 
